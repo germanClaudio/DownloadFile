@@ -1,7 +1,47 @@
+/* ------ reseteo navegador ---------------*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  /** Remove the margin in all browsers */
+body {
+    margin: 0;
+  }
+
+body {
+	font-family: 'Nokora', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+    background-color: #f1f1f1;
+	}
+
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-style: none;
+	overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+}  
+
+
 .tarjetas {
     display: flex;
     width: 100%;
     height: 100%;
     margin-top: 30px;
+}
 
+.tarjetas .card {
+    box-shadow: 5px 5px 10px 1px #222;
 }
