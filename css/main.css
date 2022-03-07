@@ -39,8 +39,14 @@ a {
     width: 100%;
     height: 100%;
     margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .tarjetas .card {
     box-shadow: 5px 5px 10px 1px #222;
+	border-radius: .55rem;
+}
+
+.tarjetas .card p {
+    font-size: 0.75rem;
 }
