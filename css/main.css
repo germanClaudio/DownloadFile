@@ -19,7 +19,7 @@ body {
 	font-family: 'Nokora', sans-serif;
 	font-weight: 300;
 	font-size: 16px;
-    background-color: #f1f1f1;
+    background-color: #dfd7d7;
 	}
 
 img {
@@ -38,15 +38,36 @@ a {
     display: flex;
     width: 100%;
     height: 100%;
-    margin-top: 30px;
-	margin-bottom: 30px;
+    margin-top: 2rem;
+	margin-bottom: 2rem;
 }
 
 .tarjetas .card {
     box-shadow: 5px 5px 10px 1px #222;
-	border-radius: .55rem;
+	border-radius: .5rem;
+}
+
+.tarjetas .card:hover {
+    box-shadow: 5px 5px 10px 1px #5a9101;
+	scale: 1.03;
+	transition: all 1s ease-in-out;
 }
 
 .tarjetas .card p {
     font-size: 0.75rem;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 16px auto;
+	text-align: center;
+}
+
+.containerHeader {
+	display: inline-flex;
+	width: 100%;
+	text-align: center;
+	margin: 1.5em auto 1.25em;
 }
